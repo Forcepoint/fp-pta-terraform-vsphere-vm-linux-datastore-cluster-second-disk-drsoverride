@@ -79,7 +79,7 @@ variable "ipv4_address" {
   description = "The IPv4 address assigned to this network adapter. If left blank or not included, DHCP is used."
 }
 variable "ipv4_netmask" {
-  type = string
+  type = number
   default = null
   description = "The IPv4 subnet mask, in bits (example: 24 for 255.255.255.0)."
 }
@@ -93,7 +93,7 @@ variable "ipv6_address" {
   description = "The IPv6 address assigned to this network adapter. If left blank or not included, auto-configuration is used."
 }
 variable "ipv6_netmask" {
-  type = string
+  type = number
   default = null
   description = "The IPv6 subnet mask, in bits (example: 32)."
 }
