@@ -1,6 +1,6 @@
-# vsphere-vm-datastore-cluster-second-disk-drsoverride Terraform Module
+# vsphere-vm-linux-datastore-cluster-second-disk-drsoverride Terraform Module
 
-This contains an abstracted resource for creating a virtual machine with a Linux or Windows OS
+This contains an abstracted resource for creating a virtual machine with a Linux OS
 on a specific datastore inside a datastore cluster. See https://www.terraform.io/docs/providers/vsphere/r/virtual_machine.html
 
 In addition, this creates a second disk and attaches it to the virtual machine, and applies
